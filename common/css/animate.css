@@ -1,0 +1,44 @@
+.visual h2{animation: visual_text 1s ease-out 1 }
+.baloon{animation: baloon_move 1.5s ease-out infinite alternate;}
+.visual .baloon:nth-of-type(3), .visual .baloon:nth-of-type(7){animation-delay:1s;}
+.visual .baloon:nth-of-type(4), .visual .baloon:nth-of-type(5), .visual .baloon:nth-sof-type(6){animation-delay:2s}
+.cloud_left{animation:cloud_move_left 8s ease-in-out infinite alternate;}
+.cloud_right{animation:cloud_move_right 8s ease-in-out infinite alternate;}
+.star{animation:star_move 2s linear infinite alternate;}
+
+.wave_wrap .wave.wave-one {animation: wave-one 30s ease-in-out infinite;opacity: 0.3;z-index: 4;}
+.wave_wrap .wave.wave-two {animation: wave-two 15s -5s ease-in-out infinite;bottom: 10px;opacity: 0.6;z-index: 3;}
+.wave_wrap .wave.wave-three {animation: wave-one 30s -2s ease-in-out infinite;	bottom: 15px;opacity: 0.2;z-index: 2;}
+.wave_wrap .wave.wave-four {animation: wave-two 5s -5s ease-in-out infinite;	bottom: 20px;opacity: 0.5;z-index: 1;}
+
+@keyframes visual_text{
+	0%{opacity:0;margin-top:8rem}
+	100%{opacity:1;margin-top:3rem}
+}
+@keyframes baloon_move{
+	from{}
+	to{transform:scale(0.9);	margin-top:-1.5px;}
+}
+
+@keyframes cloud_move_left{
+	from{left:-15%;opacity:0.8;}
+	to{left:18%;top:45%;transform:scale(0.5);opacity:0.5}
+}
+@keyframes cloud_move_right{
+	from{right:-30%;opacity:0.8;}
+	to{right:18%;top:50%;transform:scale(0.6);opacity:0.5}
+}
+
+@keyframes star_move{
+	from{}
+	to{background:none}
+}
+
+
+@keyframes wave-one {
+	from {background-position-x: 0;}	
+	to {background-position-x: 1000px;}
+}
+@keyframes wave-two {
+	from {background-position-x: 0;}	
+	to {background-position-x: -1000px;}
