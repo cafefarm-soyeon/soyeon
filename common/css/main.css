@@ -6,6 +6,8 @@ header .logo{vertical-align:middle;transform: scale(.7);}
 header nav{display:inline-block;float:right}
 header nav span a{padding:0 35px;font-size:24px;color:#fff;}
 header nav span a:hover{opacity:0.5}
+header>div, .visual>div{margin:0 auto}
+
 .visual{	width:100%; height: 76vh;position:relative; background-image: linear-gradient( #4634f5, #f6d7f5);padding-top:120px;}
 .visual h2{font-size:4rem;line-height:70px;color:#e6d5fb;font-family: 'Rubik', cursive;z-index:900;display:inline-block;margin-top:3rem;}
 .visual span{display:inline-block}
@@ -20,45 +22,53 @@ header nav span a:hover{opacity:0.5}
     radial-gradient(2px 2px at 125px 20px,white,rgba(255, 255, 255, 0)),
     radial-gradient(1.5px 1.5px at 50px 75px,white,rgba(255, 255, 255, 0)),
     radial-gradient(1px 1px at 15px 125px,white,rgba(255, 255, 255, 0)),
-    radial-gradient(1.5px 1.5px at 110px 80px,white,rgba(255, 255, 255, 0));
-}
-.visual .stars2 {background-image:
-  radial-gradient(1px 1px at 75px 125px, white, rgba(255, 255, 255, 0)),
+    radial-gradient(1.5px 1.5px at 110px 80px,white,rgba(255, 255, 255, 0));   }
+.visual .stars2 {background-image:radial-gradient(1px 1px at 75px 125px, white, rgba(255, 255, 255, 0)),
   radial-gradient(1px 1px at 100px 75px, white, rgba(255, 255, 255, 0)),
   radial-gradient(1.5px 1.5px at 199px 100px, white, rgba(255, 255, 255, 0)),
   radial-gradient(2px 2px at 20px 50px, white, rgba(255, 255, 255, 0)),
   radial-gradient(2.5px 2.5px at 100px 5px, white, rgba(255, 255, 255, 0)),
-  radial-gradient(2.5px 2.5px at 5px 5px, white, rgba(255, 255, 255, 0)
-  );
-}
-.visual .stars3 {
-background-image:
-  radial-gradient(1px 1px at 10px 10px, white, rgba(255, 255, 255, 0)),
+  radial-gradient(2.5px 2.5px at 5px 5px, white, rgba(255, 255, 255, 0));     }
+.visual .stars3 {background-image:radial-gradient(1px 1px at 10px 10px, white, rgba(255, 255, 255, 0)),
   radial-gradient(1px 1px at 150px 150px, white, rgba(255, 255, 255, 0)),
   radial-gradient(1.5px 1.5px at 60px 170px, white, rgba(255, 255, 255, 0)),
   radial-gradient(1.5px 1.5px at 175px 180px, white, rgba(255, 255, 255, 0)),
   radial-gradient(2px 2px at 195px 95px, white, rgba(255, 255, 255, 0)),
-  radial-gradient(2.5px 2.5px at 95px 145px, white, rgba(255, 255, 255, 0)
-  );
-}
+  radial-gradient(2.5px 2.5px at 95px 145px, white, rgba(255, 255, 255, 0));  }
 .visual .baloon:nth-of-type(4){background-size:70px;width:70px;height:70px;top:54%;left:68%}
 .visual .baloon:nth-of-type(5){background-size: 35px; width: 35px;height: 35px;top: 1%; left: 61%;}
 .visual .baloon:nth-of-type(6){background-size:50px;width:50px;height:50px;top:22%;left:15%}
 .visual .baloon:nth-of-type(7){background-size:30px;width:30px;height:30px;top:7%;left:28%;}
 .visual .wave_wrap{width:100%;position: absolute;bottom: 0;height: 170px;background:#5836c3}
-.wave_wrap .wave {background-image: url('../img/wave.png');
-	background-size: 1000px 100px;bottom: 0;height: 160px;left: 0;position: absolute;width: 100%;}
-.wave_wrap .wave-two {background-image: url('../img/wave_pu.png');}
-.wave_wrap .wave-four {background-image: url('../img/wave_p.png');}
+.visual .wave_wrap .wave {background-image: url('../img/wave.png');background-size: 1000px 100px;bottom: 0;height: 160px;left: 0;position: absolute;width: 100%;}
+.visual .wave_wrap .wave-two {background-image: url('../img/wave_pu.png');}
+.visual .wave_wrap .wave-four {background-image: url('../img/wave_p.png');}
 .visual .grass{width:100%;height:250px;}
 .visual .grass img{width:100%;position:absolute;bottom: 0;z-index:999}
 
-.hide{color:transparent;text-indent:-9999px}
-
-header>div, .visual>div{/* max-width:1280px; */margin:0 auto}
-
 .career:before{background:./common/img/logo.png}
-.career{width:100%;background:#3a2381;color:#fff;text-align:center;font-size:50px;height:300px;}
-.skills{width:100%;background:#5836c3;color:#fff;text-align:center;font-size:50px;height:300px;}
+.career{width:100%;background:#3a2381;color:#fff;text-align:center;line-height:1.8rem;overflow:hidden}
+.career .career_wrap{font-size:16px;text-align:left;position:relative;max-width: 1280px;margin: 0 auto;}
+.career .career_wrap:after{content:'';width: 0px;height: 0px;border-top: 6px solid none;border-bottom: 11px solid #fff;border-right: 6px solid transparent;border-left: 6px solid transparent;position: absolute;top: -33px;left: 223.4px;}
+.career .career_common{margin: 0 auto;padding: 0 0 80px 330px;position: relative;box-sizing:border-box;z-index:99}
+.career .career_common:before{content:'';width:1px;height:890px;background:#fff;position:absolute;top: -25px;left: 229px;}
+.career .career_common:after{content:'';width: 10px;height: 10px;background: #fff;border-radius: 5px;position: absolute;left: 224.5px;top: 26px;}
+.career .career_wrap span{display:block}
+.career .career_wrap .stit{font-size:1.5rem;padding:20px 0}
+.career .career_wrap .date{font-size:1.3rem;padding:0 0 10px 0;padding-left:15px;opacity:0.85;}
+.career .career_wrap ul li{margin-left:30px;opacity:0.8;list-style-type: disc;}
+.career .career_wrap .career01{padding-bottom:120px}
+.career .career_wrap .stit:after{content: "";background:url('../img/career_03.jpg') no-repeat; width:278px;height:181px;position:absolute;top:22px;right:70px;opacity:0.5;z-index:-1;}
+.career .career_wrap .career02 .stit:after{background:url('../img/career_02.jpg') no-repeat;}
+.career .career_wrap .career01 .stit:after{background:url('../img/career_01.jpg') no-repeat;}
+
+
+.skills{width:100%;background:#5836c3;color:#fff;text-align:center;font-size:3rem;height:300px;}
 
 footer{width:100%;background:#20124e;color:#fff;height:300px;}
+
+
+/*공용*/
+
+section .tit{font-size:3rem;padding:5rem 0 7rem 0;}
+.hide{color:transparent;text-indent:-9999px}
