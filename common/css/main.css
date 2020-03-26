@@ -4,7 +4,6 @@ header .logo{vertical-align:middle;transform: scale(.7);}
 header nav{display:inline-block;float:right}
 header nav span a{padding:0 35px;font-size:24px;color:#fff;}
 header nav span a:hover{opacity:0.5}
-header + section{}
 .visual{	width:100%; height: 76vh;position:relative; background-image: linear-gradient( #4634f5, #f6d7f5);padding-top:120px;}
 .visual h2{font-size:4rem;line-height:70px;color:#e6d5fb;font-family: 'Rubik', cursive;z-index:900;display:inline-block;margin-top:3rem;}
 .visual span{display:inline-block}
