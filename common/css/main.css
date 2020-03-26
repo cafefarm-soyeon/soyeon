@@ -6,7 +6,11 @@ header nav span a{padding:0 35px;font-size:24px;color:#fff;}
 header nav span a:hover{opacity:0.5}
 header + section{}
 .visual{	width:100%; height: 76vh;position:relative; background-image: linear-gradient( #4634f5, #f6d7f5);padding-top:120px;}
+<<<<<<< HEAD
 .visual h2{font-size:4rem;line-height:70px;color:#e6d5fb;font-family: 'Rubik', cursive;z-index:900;display:inline-block;margin-top:3rem}
+=======
+.visual h2{font-size:4rem;line-height:70px;color:#e6d5fb;font-family: 'Rubik', cursive;z-index:900;display:inline-block;margin-top:3rem;}
+>>>>>>> e627ab7... 별 IE 수정
 .visual span{display:inline-block}
 .visual .pic{text-align:center}
 .visual .cloud_left{width:224px;height:89px;position:absolute;top:32%;left:12%;background:url('../img/visual_cloud_left.png') no-repeat;transform:scale(0.8)}
@@ -14,12 +18,49 @@ header + section{}
 .visual .baloon{position:absolute;background:url('../img/visual_baloon.png') no-repeat;background-size:50px;width:50px;height:50px;top:13%;left:74%;z-index:200; }
 .visual .baloon:nth-of-type(4), .visual .baloon:nth-of-type(5), .visual .baloon:nth-of-type(6){background:url('../img/visual_baloon_reverse.png') }
 .visual .star{position:absolute; left: 118vh; top:-12vh; z-index:99;  border-radius: 50%; width: .15rem; height: .15rem;background: white; 
+<<<<<<< HEAD
 border-collapse:separate !important;
 
 -webkit-box-shadow: -20vh 20vh 0 -1px white, 10vh 10vh 0 1px #fff4, 11vh 11vh 0 -1px #fff;
   -moz-box-shadow: -20vh 20vh 0 -1px white, 10vh 10vh 0 1px #fff4, 11vh 11vh 0 -1px #fff;
   box-shadow: -20vh 20vh 0 -1px white, 10vh 10vh 0 1px #fff4, 11vh 11vh 0 -1px #fff;
   filter: drop-shadow(-23vh -5vh 0 white) drop-shadow(-23vh 5vh 0 white) drop-shadow(-53vh 7vh 0 white) drop-shadow(53vh 7vh 0 white) drop-shadow(-53vh 7vh 0 white) drop-shadow(53vh 7vh 0 white);}
+=======
+-webkit-box-shadow: -20vh 20vh 0 -1px white, 10vh 10vh 0 1px #fff4, 11vh 11vh 0 -1px #fff;
+  -moz-box-shadow: -20vh 20vh 0 -1px white, 10vh 10vh 0 1px #fff4, 11vh 11vh 0 -1px #fff;
+  box-shadow: -20vh 20vh 0 -1px white, 10vh 10vh 0 1px #fff4, 11vh 11vh 0 -1px #fff;
+  filter: drop-shadow(-23vh -5vh 0 white) drop-shadow(-23vh 5vh 0 white) drop-shadow(-53vh 7vh 0 white) drop-shadow(53vh 7vh 0 white) drop-shadow(-53vh 7vh 0 white) drop-shadow(53vh 7vh 0 white);
+  -ms-filter:drop-shadow(-23vh -5vh 0 white) drop-shadow(-23vh 5vh 0 white) drop-shadow(-53vh 7vh 0 white) drop-shadow(53vh 7vh 0 white) drop-shadow(-53vh 7vh 0 white) drop-shadow(53vh 7vh 0 white);
+  ;border-collapse:separate !important;}
+.visual .space{background-size: 200px 150px;width:100%;height:60vh;bottom: 0;left: 0;position: absolute;right: 0;top: -18%;}
+.visual .stars1 {background-image:radial-gradient(1px 1px at 25px 5px,white,rgba(255, 255, 255, 0)),
+    radial-gradient(2px 2px at 50px 25px,white,rgba(255, 255, 255, 0)),
+    radial-gradient(2px 2px at 125px 20px,white,rgba(255, 255, 255, 0)),
+    radial-gradient(1.5px 1.5px at 50px 75px,white,rgba(255, 255, 255, 0)),
+    radial-gradient(1px 1px at 15px 125px,white,rgba(255, 255, 255, 0)),
+    radial-gradient(1.5px 1.5px at 110px 80px,white,rgba(255, 255, 255, 0));
+}
+.visual .stars2 {background-image:
+  radial-gradient(1px 1px at 75px 125px, white, rgba(255, 255, 255, 0)),
+  radial-gradient(1px 1px at 100px 75px, white, rgba(255, 255, 255, 0)),
+  radial-gradient(1.5px 1.5px at 199px 100px, white, rgba(255, 255, 255, 0)),
+  radial-gradient(2px 2px at 20px 50px, white, rgba(255, 255, 255, 0)),
+  radial-gradient(2.5px 2.5px at 100px 5px, white, rgba(255, 255, 255, 0)),
+  radial-gradient(2.5px 2.5px at 5px 5px, white, rgba(255, 255, 255, 0)
+  );
+}
+.visual .stars3 {
+background-image:
+  radial-gradient(1px 1px at 10px 10px, white, rgba(255, 255, 255, 0)),
+  radial-gradient(1px 1px at 150px 150px, white, rgba(255, 255, 255, 0)),
+  radial-gradient(1.5px 1.5px at 60px 170px, white, rgba(255, 255, 255, 0)),
+  radial-gradient(1.5px 1.5px at 175px 180px, white, rgba(255, 255, 255, 0)),
+  radial-gradient(2px 2px at 195px 95px, white, rgba(255, 255, 255, 0)),
+  radial-gradient(2.5px 2.5px at 95px 145px, white, rgba(255, 255, 255, 0)
+  );
+}
+
+>>>>>>> e627ab7... 별 IE 수정
 .visual .baloon:nth-of-type(4){background-size:70px;width:70px;height:70px;top:54%;left:68%}
 .visual .baloon:nth-of-type(5){background-size: 35px; width: 35px;height: 35px;top: 1%; left: 61%;}
 .visual .baloon:nth-of-type(6){background-size:50px;width:50px;height:50px;top:22%;left:15%}
