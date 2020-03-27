@@ -1,10 +1,10 @@
 html{ scroll-behavior: smooth;}
-body  { font-family: 'NanumBarunGothic', sans-serif;font-size:16px;overflow:hidden;overflow-y: scroll; }
+body  { font-family: 'NanumBarunGothic', sans-serif;font-size:16px;overflow:hidden !important;overflow-y: scroll !important; }
 header{width:100%;height:120px;line-height:120px; background:#4634f5}
 header>div>span, header>div>nav>span{position: relative;z-index:999;}
 header .logo{vertical-align:middle;transform: scale(.6);margin:-15px 0 0 20px;}
-header nav{display:inline-block;float:right}
-header nav span a{padding:0 35px;font-size:24px;color:#fff;}
+header nav{float:right}
+header nav span a{padding:20px 35px;font-size:24px;color:#fff;}
 header nav span a:hover{opacity:0.5}
 header>div, .visual>div{margin:0 auto}
 section .tit{font-size:3rem;padding:5rem 0;}
@@ -13,7 +13,7 @@ section .tit{font-size:3rem;padding:5rem 0;}
 .visual{	width:100%; height: 76vh;position:relative; background-image: linear-gradient( #4634f5, #f6d7f5);padding-top:120px;}
 .visual h2{font-size:5rem;line-height:70px;font-family: 'Indie Flower', cursive;z-index:900;display:inline-block;margin-top:3rem;color:#ede1ff
 ;background:linear-gradient(to top, #ede1ff, #fa8fec);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
-/* IE */ @media screen and (min-width:0\0){.visual h2{background:none;color:#ede1ff}}
+/* IE text color */ @media screen and (min-width:0\0){.visual h2{background:none;color:#ede1ff}}
 .visual span{display:inline-block}
 .visual .pic{text-align:center}
 .visual .cloud_left{width:224px;height:89px;position:absolute;top:32%;left:12%;background:url('../img/visual_cloud_left.png') no-repeat;transform:scale(0.8)}
@@ -50,33 +50,32 @@ section .tit{font-size:3rem;padding:5rem 0;}
 .visual .grass{width:100%;height:250px;}
 .visual .grass img{width:100%;position:absolute;bottom: 0;z-index:999}
 
-.career:before{background:./common/img/logo.png}
 .career{width:100%;background:#3a2381;color:#fff;text-align:center;line-height:1.8rem;overflow:hidden}
 .career .tit{padding:20px 0;margin:80px 0 100px 0;position:relative}
 .career .tit:after{content:'';width:149px;height:4px;background:#fff;position:absolute;bottom:0;left:50%;transform:translate(-50%,-50%)}
 .career .career_wrap{font-size:16px;text-align:left;position:relative;max-width: 1280px;margin: 0 auto;}
-.career .career_wrap:after{content:'';width: 0px;height: 0px;border-top: 6px solid none;border-bottom: 11px solid #fff;border-right: 6px solid transparent;border-left: 6px solid transparent;position: absolute;top: -33px;left: 223.4px;}
+.career .career_wrap:after{content:'';width: 0px;height: 0px;border-bottom: 11px solid #fff;border-right: 6px solid transparent;border-left: 6px solid transparent;position: absolute;top: -33px;left: 223.4px;}
 .career .career_common{margin: 0 auto;padding: 0 0 80px 330px;position: relative;box-sizing:border-box;z-index:99}
 .career .career_common:before{content:'';width:1px;height:890px;background:#fff;position:absolute;top: -25px;left: 229px;}
 .career .career_common:after{content:'';width: 10px;height: 10px;background: #fff;border-radius: 5px;position: absolute;left: 224.5px;top: 26px;}
 .career .career_wrap span{display:block}
-.career .career_wrap .stit{font-size:1.5rem;padding:20px 0}
+.career .career_wrap .stit{font-size:1.5rem;padding:20px 0;max-width:500px;}
 .career .career_wrap .date{font-size:1.3rem;padding:0 0 10px 0;padding-left:15px;opacity:0.85;}
 .career .career_wrap ul li{margin-left:30px;opacity:0.8;list-style-type: disc;}
 .career .career_wrap .career01{padding-bottom:120px}
-.career .career_wrap .stit:after{content: "";background:url('../img/career_03.jpg') no-repeat; width:278px;height:181px;position:absolute;top:22px;right:70px;opacity:0.5;z-index:-1;}
+.career .career_wrap .stit:after{content: "";background:url('../img/career_03.jpg') no-repeat; width:278px;height:181px;position:absolute;top:22px;right:-60%;opacity:0.5;z-index:-1;}
 .career .career_wrap .career02 .stit:after{background:url('../img/career_02.jpg') no-repeat;}
 .career .career_wrap .career01 .stit:after{background:url('../img/career_01.jpg') no-repeat;}
 
 .skills{width:100%;background: url(../img/skills_bg.png) center center repeat fixed;color:#fff;text-align:center;position:relative}
-.skills .tit{padding:100px 0 10px 0;position:relative;}
+.skills .tit{padding:100px 0 10px 0;margin-bottom: 80px;position:relative;}
 .skills>.tit:after{content:'';width:111px;height:4px;background:#fff;position:absolute;bottom:0;left:50%;transform:translate(-50%,-50%)}
 .skills .skills_wrap{padding-bottom:60px}
-.skills .skills_wrap .tit{font-size:2rem;display:inline-block;padding:60px;margin:15px}
+.skills .skills_wrap .tit{font-size:2rem;display:inline-block;padding:0 0 60px 0;margin:15px}
 .skills .skills_wrap>ul{font-size:0}
 .skills .skills_wrap>ul>li{width:100%;clear:both}
 .skills .skills_wrap>ul>li:nth-child(3), .skills .skills_wrap>ul>li:nth-child(4){width:30%;;display:inline-block}
-.skills .skills_wrap>ul>li>ul>li{position:relative;font-size:1rem;padding:50px 20px 0;display: inline-block;min-width:80px }
+.skills .skills_wrap>ul>li>ul>li{position:relative;font-size:1rem;padding:50px 20px 80px;display: inline-block;min-width:80px }
 .skills .skills_wrap>ul>li>ul>li:before{content:'';position:absolute;top:-3px;left:50%;transform:translate(-50%,-50%);width:70px;height:70px;}
 .skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(1):before{background:url('../img/icon_web_01.png') 50% 50% no-repeat}
 .skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(2):before{background:url('../img/icon_web_02.png') 50% 50% no-repeat}
@@ -103,3 +102,38 @@ footer i{padding-right:3px}
 footer span{padding:0 8px}
 
 
+/* Media Query Start */
+
+/* PC */
+@media all and (min-width:1024px){
+  .skills .skills_wrap>ul>li:nth-child(3), .skills .skills_wrap>ul>li:nth-child(4) {width: 40%;}
+  .visual .wave_wrap .wave {height: 130px;}
+
+}
+
+
+/* Tablet (768px ~ 1023px)*/
+@media all and (min-width:768px) and (max-width:1024px) {
+  
+ 
+  .visual .wave_wrap {height: 150px;}
+  .visual .wave_wrap .wave {height: 120px;}
+  .career .career_common{padding: 0 0 80px 200px;}
+  .career .career_common:before {left: 109px;}
+  .career .career_wrap:after {left: 103.4px;}
+  .career .career_common:after {left: 104.5px;}
+  .skills .skills_wrap>ul>li>ul>li {min-width: 70px;}
+
+
+
+
+
+}
+
+/* Mobile (480px ~ 767px)*/
+@media all and (max-width:767px) {
+
+}
+ 
+
+/* Media Query End */
