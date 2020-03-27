@@ -48,6 +48,7 @@ header>div, .visual>div{margin:0 auto}
 
 .career:before{background:./common/img/logo.png}
 .career{width:100%;background:#3a2381;color:#fff;text-align:center;line-height:1.8rem;overflow:hidden}
+.career .tit{padding:5rem 0 8rem 0}
 .career .career_wrap{font-size:16px;text-align:left;position:relative;max-width: 1280px;margin: 0 auto;}
 .career .career_wrap:after{content:'';width: 0px;height: 0px;border-top: 6px solid none;border-bottom: 11px solid #fff;border-right: 6px solid transparent;border-left: 6px solid transparent;position: absolute;top: -33px;left: 223.4px;}
 .career .career_common{margin: 0 auto;padding: 0 0 80px 330px;position: relative;box-sizing:border-box;z-index:99}
@@ -62,13 +63,22 @@ header>div, .visual>div{margin:0 auto}
 .career .career_wrap .career02 .stit:after{background:url('../img/career_02.jpg') no-repeat;}
 .career .career_wrap .career01 .stit:after{background:url('../img/career_01.jpg') no-repeat;}
 
-
 .skills{width:100%;background:#5836c3;color:#fff;text-align:center;}
+.skills .skills_wrap{padding-bottom:60px}
+.skills .skills_wrap .tit{font-size:2rem;display:inline-block;padding:60px}
+.skills .skills_wrap>ul>li{width:100%;clear:both}
+.skills .skills_wrap>ul>li>ul>li{font-size:1rem;padding:50px 20px 20px;display: inline-block; }
 
-footer{width:100%;background:#20124e;color:#fff;height:300px;}
+   
+
+.skills:after{clear:both}
+
+footer{width:100%;background:#20124e;color:#fff;text-align:center;padding:25px 0;font-size:16px;line-height:30px}
+footer i{padding-right:3px}
+footer span{padding:0 8px}
 
 
 /*공용*/
 
-section .tit{font-size:3rem;padding:5rem 0 7rem 0;}
-.hide{color:transparent;text-indent:-9999px}
+section .tit{font-size:3rem;padding:5rem 0;}
+.hide{color:transparent;text-indent:-9999px;}
