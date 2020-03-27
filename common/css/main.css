@@ -7,6 +7,8 @@ header nav{display:inline-block;float:right}
 header nav span a{padding:0 35px;font-size:24px;color:#fff;}
 header nav span a:hover{opacity:0.5}
 header>div, .visual>div{margin:0 auto}
+section .tit{font-size:3rem;padding:5rem 0;}
+.hide{color:transparent;text-indent:-9999px;}
 
 .visual{	width:100%; height: 76vh;position:relative; background-image: linear-gradient( #4634f5, #f6d7f5);padding-top:120px;}
 .visual h2{font-size:4rem;line-height:70px;color:#e6d5fb;font-family: 'Rubik', cursive;z-index:900;display:inline-block;margin-top:3rem;}
@@ -64,18 +66,23 @@ header>div, .visual>div{margin:0 auto}
 .career .career_wrap .career01 .stit:after{background:url('../img/career_01.jpg') no-repeat;}
 
 .skills{width:100%;background: url(../img/skills_bg.png) center center repeat fixed;color:#fff;text-align:center;position:relative}
-
+.skills .tit{padding:100px 0 30px 0}
 .skills .skills_wrap{padding-bottom:60px}
-.skills .skills_wrap .tit{font-size:2rem;display:inline-block;padding:60px}
+.skills .skills_wrap .tit{font-size:2rem;display:inline-block;padding:60px;}
 .skills .skills_wrap>ul>li{width:100%;clear:both}
-.skills .skills_wrap>ul>li>ul>li{font-size:1rem;padding:50px 20px 20px;display: inline-block; }
+.skills .skills_wrap>ul>li:nth-child(3), .skills .skills_wrap>ul>li:nth-child(4){width:30%;;display:inline-block}
+.skills .skills_wrap>ul>li>ul>li{position:relative;font-size:1rem;padding:50px 20px 0;display: inline-block;min-width:80px }
+.skills .skills_wrap>ul>li>ul>li:before{content:'';position:absolute;top:-3px;left:50%;transform:translate(-50%,-50%);width:70px;height:70px;}
+
+.skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(1):before{background:url('../img/porgram_01.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(2):before{background:url('../img/porgram_02.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(3):before{background:url('../img/porgram_03.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(4):before{background:url('../img/porgram_04.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(5):before{background:url('../img/porgram_05.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(6):before{background:url('../img/porgram_06.png') 50% 50% no-repeat}
 
 footer{width:100%;background:#20124e;color:#fff;text-align:center;padding:25px 0;font-size:16px;line-height:30px}
 footer i{padding-right:3px}
 footer span{padding:0 8px}
 
 
-/*공용*/
-
-section .tit{font-size:3rem;padding:5rem 0;}
-.hide{color:transparent;text-indent:-9999px;}
