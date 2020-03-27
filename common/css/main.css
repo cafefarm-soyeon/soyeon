@@ -11,7 +11,7 @@ section .tit{font-size:3rem;padding:5rem 0;}
 .hide{color:transparent;text-indent:-9999px;}
 
 .visual{	width:100%; height: 76vh;position:relative; background-image: linear-gradient( #4634f5, #f6d7f5);padding-top:120px;}
-.visual h2{font-size:4rem;line-height:70px;color:#e6d5fb;font-family: 'Rubik', cursive;z-index:900;display:inline-block;margin-top:3rem;}
+.visual h2{font-size:5rem;line-height:70px;color:#e6d5fb;font-family: 'Indie Flower', cursive;z-index:900;display:inline-block;margin-top:3rem;}
 .visual span{display:inline-block}
 .visual .pic{text-align:center}
 .visual .cloud_left{width:224px;height:89px;position:absolute;top:32%;left:12%;background:url('../img/visual_cloud_left.png') no-repeat;transform:scale(0.8)}
@@ -50,7 +50,8 @@ section .tit{font-size:3rem;padding:5rem 0;}
 
 .career:before{background:./common/img/logo.png}
 .career{width:100%;background:#3a2381;color:#fff;text-align:center;line-height:1.8rem;overflow:hidden}
-.career .tit{padding:5rem 0 8rem 0}
+.career .tit{padding:20px 0;margin:80px 0 100px 0;position:relative}
+.career .tit:after{content:'';width:149px;height:4px;background:#fff;position:absolute;bottom:0;left:50%;transform:translate(-50%,-50%)}
 .career .career_wrap{font-size:16px;text-align:left;position:relative;max-width: 1280px;margin: 0 auto;}
 .career .career_wrap:after{content:'';width: 0px;height: 0px;border-top: 6px solid none;border-bottom: 11px solid #fff;border-right: 6px solid transparent;border-left: 6px solid transparent;position: absolute;top: -33px;left: 223.4px;}
 .career .career_common{margin: 0 auto;padding: 0 0 80px 330px;position: relative;box-sizing:border-box;z-index:99}
@@ -66,20 +67,34 @@ section .tit{font-size:3rem;padding:5rem 0;}
 .career .career_wrap .career01 .stit:after{background:url('../img/career_01.jpg') no-repeat;}
 
 .skills{width:100%;background: url(../img/skills_bg.png) center center repeat fixed;color:#fff;text-align:center;position:relative}
-.skills .tit{padding:100px 0 30px 0}
+.skills .tit{padding:100px 0 10px 0;position:relative;}
+.skills>.tit:after{content:'';width:111px;height:4px;background:#fff;position:absolute;bottom:0;left:50%;transform:translate(-50%,-50%)}
 .skills .skills_wrap{padding-bottom:60px}
 .skills .skills_wrap .tit{font-size:2rem;display:inline-block;padding:60px;}
+.skills .skills_wrap>ul{font-size:0}
 .skills .skills_wrap>ul>li{width:100%;clear:both}
 .skills .skills_wrap>ul>li:nth-child(3), .skills .skills_wrap>ul>li:nth-child(4){width:30%;;display:inline-block}
 .skills .skills_wrap>ul>li>ul>li{position:relative;font-size:1rem;padding:50px 20px 0;display: inline-block;min-width:80px }
 .skills .skills_wrap>ul>li>ul>li:before{content:'';position:absolute;top:-3px;left:50%;transform:translate(-50%,-50%);width:70px;height:70px;}
-
-.skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(1):before{background:url('../img/porgram_01.png') 50% 50% no-repeat}
-.skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(2):before{background:url('../img/porgram_02.png') 50% 50% no-repeat}
-.skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(3):before{background:url('../img/porgram_03.png') 50% 50% no-repeat}
-.skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(4):before{background:url('../img/porgram_04.png') 50% 50% no-repeat}
-.skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(5):before{background:url('../img/porgram_05.png') 50% 50% no-repeat}
-.skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(6):before{background:url('../img/porgram_06.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(1):before{background:url('../img/icon_web_01.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(2):before{background:url('../img/icon_web_02.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(3):before{background:url('../img/icon_web_03.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(4):before{background:url('../img/icon_web_04.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(5):before{background:url('../img/icon_web_05.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(6):before{background:url('../img/icon_web_06.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(2)>ul>li:nth-child(1):before{background:url('../img/icon_program_01.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(2)>ul>li:nth-child(2):before{background:url('../img/icon_program_02.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(2)>ul>li:nth-child(3):before{background:url('../img/icon_program_03.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(2)>ul>li:nth-child(4):before{background:url('../img/icon_program_04.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(2)>ul>li:nth-child(5):before{background:url('../img/icon_program_05.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(2)>ul>li:nth-child(6):before{background:url('../img/icon_program_06.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(2)>ul>li:nth-child(7):before{background:url('../img/icon_program_07.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(2)>ul>li:nth-child(8):before{background:url('../img/icon_program_08.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(3)>ul>li:nth-child(1):before{background:url('../img/icon_framework_01.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(3)>ul>li:nth-child(2):before{background:url('../img/icon_framework_02.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(4)>ul>li:nth-child(1):before{background:url('../img/icon_oa_01.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(4)>ul>li:nth-child(2):before{background:url('../img/icon_oa_02.png') 50% 50% no-repeat}
+.skills .skills_wrap>ul>li:nth-child(4)>ul>li:nth-child(3):before{background:url('../img/icon_oa_03.png') 50% 50% no-repeat}
 
 footer{width:100%;background:#20124e;color:#fff;text-align:center;padding:25px 0;font-size:16px;line-height:30px}
 footer i{padding-right:3px}
