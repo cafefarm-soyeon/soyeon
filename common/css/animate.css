@@ -1,3 +1,4 @@
+/* .intro{animation: page 0.3s linear} */
 .visual h2{animation: visual_text 1s ease-out 1 }
 .baloon{animation: baloon_move 1.5s ease-out infinite alternate;}
 .visual .baloon:nth-of-type(3), .visual .baloon:nth-of-type(7){animation-delay:1s;}
@@ -5,14 +6,19 @@
 .cloud_left{animation:cloud_move_left 8s ease-in-out infinite alternate;}
 .cloud_right{animation:cloud_move_right 8s ease-in-out infinite alternate;}
 .star{animation:star_move 2s linear infinite alternate;}
-.wave_wrap .wave.wave-one {animation: wave-one 30s ease-in-out infinite;opacity: 0.5;z-index: 4;}
-.wave_wrap .wave.wave-two {animation: wave-two 15s ease-in-out infinite;bottom: 10px;opacity: 0.6;z-index: 3;}
-.wave_wrap .wave.wave-three {animation: wave-one 30s ease-in-out infinite;	bottom: 15px;opacity: 0.4;z-index: 2;}
-.wave_wrap .wave.wave-four {animation: wave-two 5s ease-in-out infinite;	bottom: 20px;opacity: 0.25;z-index: 1;}
+.wave_wrap .wave.wave-one {animation: wave-one 30s ease-in-out infinite alternate;opacity: 0.5;z-index: 4;}
+.wave_wrap .wave.wave-two {animation: wave-two 15s ease-in-out infinite alternate;bottom: 10px;opacity: 0.6;z-index: 3;}
+.wave_wrap .wave.wave-three {animation: wave-one 30s ease-in-out infinite alternate;bottom: 15px;opacity: 0.4;z-index: 2;}
+.wave_wrap .wave.wave-four {animation: wave-two 5s ease-in-out infinite alternate;bottom: 20px;opacity: 0.25;z-index: 1;}
 .stars1{animation:star 2s -1s ease-in-out infinite alternate;}
 .stars2{animation:star 2s ease-in-out infinite alternate;}
 .stars3{animation:star 3s -2s ease-in-out infinite alternate;}
 
+@keyframes page{
+	0%{opacity:1;}
+	50%{}
+	100%{height:1px;bottom:0;opacity:1}
+}
 @keyframes visual_text{
 	0%{opacity:0;margin-top:6rem;transform:scale(0.8)}
 	100%{opacity:1;margin-top:3rem;transform:scale(1)}
