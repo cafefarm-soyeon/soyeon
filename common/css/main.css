@@ -1,5 +1,5 @@
 html{ scroll-behavior: smooth;}
-body  {position:relative; font-family: 'NanumBarunGothic', sans-serif;font-size:16px;overflow:hidden !important;overflow-y: scroll !important; }
+body  { font-family: 'NanumBarunGothic', sans-serif;font-size:16px;overflow:hidden !important;overflow-y: scroll !important; }
 header{width:100%;height:120px;line-height:120px; background:#4634f5}
 header>div>span, header>div>nav>span{position: relative;z-index:999;}
 header .logo{vertical-align:middle;transform: scale(.6);margin:-15px 0 0 20px;}
@@ -7,21 +7,8 @@ header nav{float:right}
 header nav span a{padding:20px 35px;font-size:24px;color:#fff;}
 header nav span a:hover{opacity:0.5}
 header>div, .visual>div{margin:0 auto}
-section .tit{font-size:48px;padding:80px 0;}
 .hide{color:transparent;text-indent:-9999px;}
 
-.intro{position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #3a2381;
-  opacity: 1;
-  z-index: 9999999;
-  width:100%;
-  height:100vh;
-  opacity:0
-}
 .visual{	width:100%; height: 76vh;position:relative; background-image: linear-gradient( #4634f5, #f6d7f5);padding-top:120px;}
 .visual h2{position:relative;font-size:80px;line-height:70px;font-family: 'Indie Flower', cursive;z-index:900;display:inline-block;margin-top:48px;color:#ede1ff
 ;background:linear-gradient(to top, #ede1ff, #fa8fec);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
