@@ -2,7 +2,7 @@ html{ scroll-behavior: smooth;}
 body  { font-family: 'NanumBarunGothic', sans-serif;font-size:16px;overflow:hidden;overflow-y: scroll; }
 header{width:100%;height:120px;line-height:120px; background:#4634f5}
 header>div>span, header>div>nav>span{position: relative;z-index:999;}
-header .logo{vertical-align:middle;transform: scale(.7);}
+header .logo{vertical-align:middle;transform: scale(.6);margin:-15px 0 0 20px;}
 header nav{display:inline-block;float:right}
 header nav span a{padding:0 35px;font-size:24px;color:#fff;}
 header nav span a:hover{opacity:0.5}
