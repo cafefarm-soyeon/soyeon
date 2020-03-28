@@ -61,7 +61,7 @@ section{width:100%;/*overflow:hidden*/}
 .career .career_wrap span{display:block}
 .career .career_wrap .stit{font-size:24px;padding:20px 0;max-width:500px;}
 .career .career_wrap .date{font-size:24px;padding:0 0 10px 0;padding-left:15px;opacity:0.85;}
-.career .career_wrap ul li{margin-left:30px;opacity:0.8;list-style-type: disc;}
+.career .career_wrap ul li{margin-left:30px;color:#ede1ff;list-style-type: disc;}
 .career .career_wrap .career01{padding-bottom:120px}
 .career .career_wrap .stit:after{content: "";background:url('../img/career_03.jpg') no-repeat; width:278px;height:181px;position:absolute;top:22px;right:-60%;opacity:0.5;z-index:-1;}
 .career .career_wrap .career02 .stit:after{background:url('../img/career_02.jpg') no-repeat;}
@@ -75,7 +75,7 @@ section{width:100%;/*overflow:hidden*/}
 .skills .skills_wrap>ul{font-size:0}
 .skills .skills_wrap>ul>li{width:100%;clear:both}
 .skills .skills_wrap>ul>li:nth-child(3), .skills .skills_wrap>ul>li:nth-child(4){width:30%;;display:inline-block}
-.skills .skills_wrap>ul>li>ul>li{position:relative;font-size:16px;padding:50px 20px 80px;display: inline-block;min-width:80px;color:#bbb6cc }
+.skills .skills_wrap>ul>li>ul>li{position:relative;font-size:16px;padding:50px 20px 80px;display: inline-block;min-width:80px;color:#d2c7f2 }
 .skills .skills_wrap>ul>li>ul>li:before{content:'';position:absolute;top:-3px;left:50%;transform:translate(-50%,-50%);width:70px;height:70px;}
 .skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(1):before{background:url('../img/icon_web_01.png') 50% 50% no-repeat}
 .skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(2):before{background:url('../img/icon_web_02.png') 50% 50% no-repeat}
@@ -182,6 +182,14 @@ footer span{padding:0 8px}
 @media all and (max-width:600px) {
   .career .career_wrap .stit{font-size:22px;}
   .career .career_wrap .date{font-size:20px;}
+  .career .career_common{padding:0 10px 50px 60px;}
+  .career .career_common:before {left: 29px;}
+  .career .career_common:after {left: 24.5px;}
+  .career .career_wrap:after {left: 23.4px;}
+  .career .career_wrap ul li{
+    line-height: 26px;
+}
+
 }
 
 
