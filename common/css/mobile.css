@@ -62,9 +62,12 @@
 @media all and (max-width:700px) {
   header nav span a {padding: 20px 20px;}
   header nav{margin-right:20px}
+  header .logo a img{margin:-15px 0 0 0px}
   .visual h2{max-width: 350px;}
   .visual .cloud_left{transform:scale(0.5);}
-.visual .cloud_right{transform:scale(0.7);}
+  .visual .cloud_right{transform:scale(0.7);}
+  
+
 }
 
 @media all and (max-width:600px) {
@@ -75,15 +78,18 @@
   .career .career_common:after {left: 24.5px;}
   .career .career_wrap:after {left: 23.4px;}
   .career .career_wrap ul li{line-height: 26px;}
-  .visual .cloud_right{right:-5%;}
-  .visual .cloud_left{left:-5%;}
+  .visual .cloud_right{right:0%;top:53%}
+  .visual .cloud_left{left:-5%;top:44%}
 }
 
 
 @media all and (max-width:500px) {
   header nav span a{font-size:20px}
   header {height: 100px;line-height: 100px;}
-  header .logo {margin: -15px 0 0 0;}
+}
+
+@media all and (max-width:420px) {
+  .skills .skills_wrap{padding-bottom:0}
 }
 
 @media all and (max-width:400px) {
@@ -91,6 +97,7 @@
   .visual h2{font-size: 70px;}
   .visual .grass.pc,.visual .grass.tablet {display:none}
   .visual .grass.mobile{display:block}
+  footer{font-size:14px}
 }
 
 @media all and (max-width:350px) {
