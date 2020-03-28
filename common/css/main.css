@@ -48,6 +48,7 @@ section{width:100%;/*overflow:hidden*/}
 .visual .wave_wrap .wave-two {background-image: url('../img/wave_pu.png');}
 .visual .wave_wrap .wave-four {background-image: url('../img/wave_p.png');}
 .visual .grass{width:100%;height:250px;}
+.visual .grass.tablet, .visual .grass.mobile{display:none}
 .visual .grass img{width:100%;position:absolute;bottom: 0;z-index:999}
 
 .career{width:100%;background:#3a2381;color:#fff;text-align:center;line-height:30px;overflow:hidden}
