@@ -71,11 +71,11 @@ section{width:100%;/*overflow:hidden*/}
 .skills .tit{padding:100px 0 10px 0;margin-bottom: 80px;position:relative;font-size:48px}
 .skills>.tit:after{content:'';width:111px;height:4px;background:#fff;position:absolute;bottom:0;left:50%;transform:translate(-50%,-50%)}
 .skills .skills_wrap{padding-bottom:60px}
-.skills .skills_wrap .tit{font-size:32px;display:inline-block;padding:0 0 60px 0;margin:15px}
+.skills .skills_wrap .tit{font-size:32px;display:inline-block;padding:0 0 60px 0;margin:15px;color:#d2c7f2}
 .skills .skills_wrap>ul{font-size:0}
 .skills .skills_wrap>ul>li{width:100%;clear:both}
 .skills .skills_wrap>ul>li:nth-child(3), .skills .skills_wrap>ul>li:nth-child(4){width:30%;;display:inline-block}
-.skills .skills_wrap>ul>li>ul>li{position:relative;font-size:16px;padding:50px 20px 80px;display: inline-block;min-width:80px }
+.skills .skills_wrap>ul>li>ul>li{position:relative;font-size:16px;padding:50px 20px 80px;display: inline-block;min-width:80px;color:#bbb6cc }
 .skills .skills_wrap>ul>li>ul>li:before{content:'';position:absolute;top:-3px;left:50%;transform:translate(-50%,-50%);width:70px;height:70px;}
 .skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(1):before{background:url('../img/icon_web_01.png') 50% 50% no-repeat}
 .skills .skills_wrap>ul>li:nth-child(1)>ul>li:nth-child(2):before{background:url('../img/icon_web_02.png') 50% 50% no-repeat}
@@ -128,7 +128,7 @@ footer span{padding:0 8px}
 }
 
 
-/* Mobile (480px ~ 767px)*/
+/* Mobile ( ~ 767px)*/
 @media all and (max-width:767px) {
   body{font-size:8px}
   .visual {height: 65vh;}
@@ -136,11 +136,19 @@ footer span{padding:0 8px}
   .visual .wave_wrap .wave {height: 75px;background-size:700px 50px;}
   .visual .cloud_right{top:55%}
   .visual .cloud_leftt{top:62%}
+  .career .tit{padding:60px 0 20px 0;margin:60px 0 80px 0;font-size:38px}
+  .career .tit:after{width:115px;}
   .career .career_common{padding:0 10px 50px 100px;}
   .career .career_common:before {left: 69px;}
   .career .career_common:after {left: 64.5px;}
   .career .career_wrap:after {left: 63.4px;}
   .career .career_wrap .stit:after{content:none}
+  .skills .tit{font-size:38px;padding: 80px 0 10px 0; margin-bottom: 60px;}
+  .skills>.tit:after{width:88px}
+  .skills .skills_wrap>ul>li>ul>li:before {top: -30px;left: 20%;transform: scale(0.8);}
+  .skills .skills_wrap>ul>li>ul>li {padding: 40px 20px 55px;min-width: 100px;}
+  .skills .skills_wrap .tit {font-size: 28px;padding: 0 0 40px 0;}
+
 
 }
 
@@ -171,10 +179,17 @@ footer span{padding:0 8px}
 .visual .cloud_right{transform:scale(0.7);}
 }
 
+@media all and (max-width:600px) {
+  .career .career_wrap .stit{font-size:22px;}
+  .career .career_wrap .date{font-size:20px;}
+}
+
+
 @media all and (max-width:500px) {
   header nav span a{font-size:20px}
   header {height: 100px;line-height: 100px;}
   header .logo {margin: -15px 0 0 0;}
+  
 
 @media all and (max-width:400px) {
   header nav span a{font-size:15px}
