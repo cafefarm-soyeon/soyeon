@@ -8,7 +8,7 @@ header nav span a{padding:20px 35px;font-size:24px;color:#fff;}
 header nav span a:hover{opacity:0.5}
 header>div, .visual>div{margin:0 auto}
 .hide{color:transparent;text-indent:-9999px;}
-section{width:100%;overflow:hidden}
+section{width:100%;/*overflow:hidden*/}
 
 .visual{	width:100%; height: 76vh;position:relative; background-image: linear-gradient( #4634f5, #f6d7f5);padding-top:120px;}
 .visual h2{position:relative;font-size:80px;line-height:70px;font-family: 'Indie Flower', cursive;z-index:900;display:inline-block;margin-top:48px;color:#ede1ff
@@ -16,11 +16,11 @@ section{width:100%;overflow:hidden}
 /* IE text color */ @media screen and (min-width:0\0){.visual h2{background:none;color:#ede1ff}}
 .visual span{display:inline-block}
 .visual .pic{text-align:center}
-.visual .cloud_left{width:224px;height:89px;position:absolute;top:32%;left:12%;background:url('../img/visual_cloud_left.png') no-repeat;transform:scale(0.8)}
-.visual .cloud_right{width:313px;height:67px;position:absolute;top:40%;right:13%;background:url('../img/visual_cloud_right.png') no-repeat}
+.visual .cloud_left{width:224px;height:89px;position:absolute;top:37%;left:9%;background:url('../img/visual_cloud_left.png') no-repeat;transform:scale(0.7);opacity:0.5}
+.visual .cloud_right{width:313px;height:67px;position:absolute;top:46%;right:10%;background:url('../img/visual_cloud_right.png') no-repeat;opacity:0.5}
 .visual .baloon{position:absolute;background:url('../img/visual_baloon.png') no-repeat;background-size:50px;width:50px;height:50px;top:13%;left:74%;z-index:200; }
 .visual .baloon:nth-of-type(4), .visual .baloon:nth-of-type(5), .visual .baloon:nth-of-type(6){background:url('../img/visual_baloon_reverse.png') }
-.visual .space{background-size: 200px 150px;width:100%;height:39vh;bottom: 0;left: 0;position: absolute;right: 0;top:-7px;}
+.visual .space{background-size: 200px 150px;width:100%;height:53vh;bottom: 0;left: 0;position: absolute;right: 0;top:-130px;}
 .visual .stars1 {background-image:radial-gradient(1px 1px at 25px 5px,white,rgba(255, 255, 255, 0)),
     radial-gradient(2px 2px at 50px 25px,white,rgba(255, 255, 255, 0)),
     radial-gradient(2px 2px at 125px 20px,white,rgba(255, 255, 255, 0)),
@@ -120,12 +120,11 @@ footer span{padding:0 8px}
   .visual .wave_wrap .wave {height: 125px;background-size:900px 70px;}
   .career .career_common{padding: 0 0 80px 200px;}
   .career .career_common:before {left: 109px;}
-  .career .career_wrap:after {left: 103.4px;}
   .career .career_common:after {left: 104.5px;}
+  .career .career_wrap:after {left: 103.4px;}
   .skills .skills_wrap>ul>li>ul>li {min-width: 70px;}
-  .skills .skills_wrap>ul>li:nth-child(3), .skills .skills_wrap>ul>li:nth-child(4) {width: 50%;}
-
-
+  
+  
 }
 
 
@@ -137,6 +136,11 @@ footer span{padding:0 8px}
   .visual .wave_wrap .wave {height: 75px;background-size:700px 50px;}
   .visual .cloud_right{top:55%}
   .visual .cloud_leftt{top:62%}
+  .career .career_common{padding:0 10px 50px 100px;}
+  .career .career_common:before {left: 69px;}
+  .career .career_common:after {left: 64.5px;}
+  .career .career_wrap:after {left: 63.4px;}
+  .career .career_wrap .stit:after{content:none}
 
 }
 
@@ -145,6 +149,7 @@ footer span{padding:0 8px}
 @media all and (max-width:1024px) {
   .visual{padding-top:80px}
   .visual h2{width:500px;}
+  .skills .skills_wrap>ul>li:nth-child(3), .skills .skills_wrap>ul>li:nth-child(4) {width:100%;}
   
 }
 
@@ -161,8 +166,20 @@ footer span{padding:0 8px}
 
 @media all and (max-width:700px) {
   header nav span a {padding: 20px 20px;}
+  .visual h2{max-width: 350px;}
+  .visual .cloud_left{transform:scale(0.5);}
+.visual .cloud_right{transform:scale(0.7);}
 }
 
+@media all and (max-width:500px) {
+  header nav span a{font-size:20px}
+  header {height: 100px;line-height: 100px;}
+  header .logo {margin: -15px 0 0 0;}
+
+@media all and (max-width:400px) {
+  header nav span a{font-size:15px}
+  .visual h2{font-size: 70px;}
+}
 
  
 
