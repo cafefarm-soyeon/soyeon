@@ -41,7 +41,6 @@
   .skills .skills_wrap .tit {font-size: 28px;padding: 0 0 40px 0;}
 }
 
-
 @media all and (max-width:1024px) {
   .visual{padding-top:80px}
   .visual h2{width:500px;}
@@ -66,8 +65,6 @@
   .visual h2{max-width: 350px;}
   .visual .cloud_left{transform:scale(0.5);}
   .visual .cloud_right{transform:scale(0.7);}
-  
-
 }
 
 @media all and (max-width:600px) {
@@ -81,7 +78,6 @@
   .visual .cloud_right{right:0%;top:53%}
   .visual .cloud_left{left:-5%;top:44%}
 }
-
 
 @media all and (max-width:500px) {
   header nav span a{font-size:20px}

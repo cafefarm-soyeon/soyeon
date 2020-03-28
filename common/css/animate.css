@@ -50,7 +50,6 @@
 	100% {opacity:1;;}
   }
 
-
 @keyframes wave-one {
 	from {background-position-x: 0;}	
 	to {background-position-x: 1000px;}
