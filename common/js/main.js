@@ -7,9 +7,9 @@
         //console.log(height);
 
         if(height > 500){
-            $('.arrow').hide();
+            $('.arrow').fadeOut();
         }else{
-            $('.arrow').show();
+            $('.arrow').fadeIn();
         }
         }); 
 
