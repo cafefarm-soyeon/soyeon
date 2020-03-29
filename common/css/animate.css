@@ -12,6 +12,7 @@
 .stars1{animation:star 2s -1s ease-in-out infinite alternate;}
 .stars2{animation:star 2s ease-in-out infinite alternate;}
 .stars3{animation:star 3s -2s ease-in-out infinite alternate;}
+.visual .arrow{animation:scroll 1.7s infinite ease}
 
 @media all and (max-width:600px) {
 	.cloud_left{animation:cloud_move_left_m 6s ease-in-out infinite alternate;}
@@ -23,8 +24,8 @@
 	100%{opacity:1;transform:scale(1)}
 }
 @keyframes baloon_move{
-	from{}
-	to{transform:scale(0.9);	margin-top:-1.5px;}
+	0%{}
+	100%{transform:scale(0.9);	margin-top:-1.5px;}
 }
 
 @keyframes cloud_move_left{
@@ -51,10 +52,17 @@
   }
 
 @keyframes wave-one {
-	from {background-position-x: 0;}	
-	to {background-position-x: 1000px;}
+	0% {background-position-x: 0;}	
+	100% {background-position-x: 1000px;}
 }
 @keyframes wave-two {
-	from {background-position-x: 0;}	
-	to {background-position-x: -1000px;}
+	0% {background-position-x: 0;}	
+	100% {background-position-x: -1000px;}
+}
+
+@keyframes scroll {
+	0%{transform: translateY(0);opacity:0;}
+	70%{transform: translateY(8px);opacity:1}
+	100%{transform: translateY(10px);opacity:0;}
+
 }

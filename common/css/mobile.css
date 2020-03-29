@@ -44,11 +44,13 @@
 @media all and (max-width:1024px) {
   .visual{padding-top:80px}
   .visual h2{width:500px;}
+  .visual .arrow{bottom:7%}
   .skills .skills_wrap>ul>li:nth-child(3), .skills .skills_wrap>ul>li:nth-child(4) {width:100%;}
 }
 
 @media all and (max-width:900px) {
   .visual {height: 66vh;}
+  .visual .arrow{bottom:0}
   .visual .wave_wrap {height: 130px;}
   .visual .wave_wrap .wave {height: 105px;background-size:800px 65px;}
   .visual .baloon:nth-of-type(3){left:83%;}
