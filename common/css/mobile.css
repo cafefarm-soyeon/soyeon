@@ -62,7 +62,7 @@
   header nav span a {padding: 20px 20px;}
   header nav{margin-right:20px}
   header .logo a img{margin:-15px 0 0 0px}
-  .visual h2{max-width: 350px;}
+  .visual h2{max-width: 350px;font-size:64px}
   .visual .cloud_left{transform:scale(0.5);}
   .visual .cloud_right{transform:scale(0.7);}
 }
@@ -82,6 +82,7 @@
 @media all and (max-width:500px) {
   header nav span a{font-size:20px}
   header {height: 100px;line-height: 100px;}
+  .visual h2{font-size:42px}
 }
 
 @media all and (max-width:420px) {
@@ -90,7 +91,6 @@
 
 @media all and (max-width:400px) {
   header nav span a{font-size:15px}
-  .visual h2{font-size: 70px;}
   .visual .grass.pc,.visual .grass.tablet {display:none}
   .visual .grass.mobile{display:block}
   footer{font-size:14px}
