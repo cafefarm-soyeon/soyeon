@@ -67,6 +67,8 @@ section{width:100%;/*overflow:hidden*/}
 .career .career_wrap ul li{margin-left:30px;color:#ede1ff;list-style-type: disc;}
 .career .career_wrap .career01{padding-bottom:120px}
 .career .career_wrap .stit:after{content: "";background:url('../img/career_03.jpg') no-repeat; width:278px;height:181px;position:absolute;top:22px;right:-60%;opacity:0.5;z-index:-1;}
+.career .career_wrap .career04 .stit:after{background:url('../img/career_04.jpg') no-repeat;}
+.career .career_wrap .career03 .stit:after{background:url('../img/career_03.jpg') no-repeat;}
 .career .career_wrap .career02 .stit:after{background:url('../img/career_02.jpg') no-repeat;}
 .career .career_wrap .career01 .stit:after{background:url('../img/career_01.jpg') no-repeat;}
 
